@@ -16,7 +16,7 @@ const products: Product[] = [
   { id: 1, name: 'Product 1', price: 100, quantity: 10, status: 'active' },
   { id: 2, name: 'Product 2', price: 200, quantity: 20, status: 'inactive' },
   { id: 3, name: 'Product 3', price: 300, quantity: 30, status: 'active' },
-  { id: 4, name: 'ABC', price: 200, quantity: 40,status: 'active'},
+  { id: 4, name: 'ABC', price: 200, quantity: 40,status:'pending'},
 ]
 
 const app = new Hono()
